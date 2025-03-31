@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster_aha - 个人主页</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-red': '#FF0000',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <!-- Hero Section -->
+    <div class="relative h-screen">
+        <img src="https://picsum.photos/1920/1080?random=1" alt="Hero Background" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-brand-red bg-opacity-90">
+            <div class="container mx-auto px-4 h-full flex flex-col justify-center items-center text-white">
+                <h1 class="text-6xl md:text-8xl font-bold mb-8">Better Than Good</h1>
+                <p class="text-xl md:text-2xl mb-8">独立开发人 | 专注AI编程</p>
+                <div class="flex space-x-6">
+                    <a href="https://blog.csdn.net/luyuqin0115" class="text-white hover:text-gray-200">
+                        <i class="fab fa-blogger fa-2x"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-200">
+                        <i class="fab fa-weixin fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-12 text-center">关于我</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                    <div class="flex items-center space-x-4">
+                        <i class="fas fa-code text-brand-red text-2xl"></i>
+                        <div>
+                            <h3 class="text-xl font-bold">技术专注</h3>
+                            <p>专注AI编程开发，持续学习新技术</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <i class="fas fa-laptop-code text-brand-red text-2xl"></i>
+                        <div>
+                            <h3 class="text-xl font-bold">独立开发</h3>
+                            <p>全栈开发能力，独立完成项目</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/800/600?random=2" alt="About Image" class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-12 text-center">工作经历</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-building text-brand-red text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">斑马网络</h3>
+                    <p class="text-gray-600">技术开发</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-shopping-cart text-brand-red text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">苏宁易购</h3>
+                    <p class="text-gray-600">技术开发</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-robot text-brand-red text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">进化者机器人</h3>
+                    <p class="text-gray-600">技术开发</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-20 bg-brand-red text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-8">联系方式</h2>
+            <div class="space-y-4">
+                <p><i class="fab fa-weixin mr-2"></i>微信号：monster_aha</p>
+                <p><i class="fas fa-rss mr-2"></i>公众号：喵呜编程日记</p>
+                <p><i class="fab fa-blogger mr-2"></i>CSDN：<a href="https://blog.csdn.net/luyuqin0115" class="underline">访问我的博客</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Monster_aha. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
